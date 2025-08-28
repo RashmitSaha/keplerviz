@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom styles */
+body {
+  @apply bg-gray-900 text-black;
+  font-family: 'Inter', sans-serif;
+}
+
+canvas {
+  @apply bg-black rounded-xl shadow-lg;
+}
+
+header {
+  
+  @keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+}
