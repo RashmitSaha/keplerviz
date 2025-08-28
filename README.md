@@ -11,10 +11,6 @@
   - **Third Law:** Interactive chart and slider to explore the relationship between orbital period and semi-major axis.  
   - **Derivation:** Step-by-step animated derivation of Kepler's Third Law with equations.
 
-## Demo
-
-![KeplerViz Screenshot](public/kepler.png)
-
 ## Getting Started
 
 ### Prerequisites
@@ -26,7 +22,7 @@
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/kepler_viz.git
+   git clone https://github.com/RashmitSaha/kepler_viz.git
    cd kepler_viz
    ```
 
